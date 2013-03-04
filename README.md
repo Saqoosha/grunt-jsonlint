@@ -3,7 +3,7 @@ grunt-jsonlint
 
 Validate JSON files from grunt.
 
-Requires grunt 0.4
+Requires grunt 0.3
 
 # Install
 
@@ -14,9 +14,7 @@ Requires grunt 0.4
 Add the following (multi-)task to your Gruntfile:
 
     jsonlint: {
-      sample: {
-        src: [ 'some/valid.json' ]
-      }
+      sample: [ 'some/valid.json' ]
     }
 
 Add the following to load the task into your Gruntfile:
